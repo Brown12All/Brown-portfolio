@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brown — Développeur Web</title>
+<meta name="description" content="Brown, développeur web à Kinshasa. Sites réels pour agences et entreprises.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="pg"></div>
+<canvas id="bg"></canvas>
+<div id="gl"></div>
+<nav>
+  <b id="logo">BROWN</b>
+  <div><a class="l" href="#about">À propos</a><a class="l" href="#projets">Projets</a><a class="l" href="#services">Services</a><a class="l" href="#skills">Compétences</a><a href="#contact">Contact</a><button class="t" id="th">◐ Thème</button></div>
+</nav>
+<main>
+<section class="hero" id="top">
+  <h1>Brown.<br>Développeur Web.</h1>
+  <p class="r">Je conçois des sites et applications web modernes, rapides et soignés, pour des agences et des entreprises. Étudiant en informatique à l'Université de Kinshasa.</p>
+  <div class="cta"><a class="btn p" href="#projets">Voir mes projets</a><a class="btn" href="#contact">Me contacter</a></div>
+</section>
+
+<div class="mq" aria-hidden="true"><div id="mqi"></div></div>
+
+<section id="about">
+  <div class="about rv">
+    <div class="photo" style="background-image:url('IMG_3235.jpeg')"></div>
+    <div>
+      <h2>À propos</h2>
+      <p class="sub" style="max-width:none">Je suis Brown, développeur web et étudiant à l'Université de Kinshasa, Faculté des Sciences et Technologies, Département de mathématiques, statistiques et informatique. Je transforme des idées en produits web concrets, avec un souci du détail, de la performance et de l'expérience utilisateur.</p>
+      <div class="chips"><span>Kinshasa, RDC</span><span>Université de Kinshasa</span><span>Math · Stats · Informatique</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2 class="rv">Projets réels</h2>
+  <p class="sub rv">Des sites en ligne, conçus pour de vraies marques. Visitez-les.</p>
+  <div class="grid" id="projects"></div>
+</section>
+
+<section id="services">
+  <h2 class="rv">Ce que je construis</h2>
+  <p class="sub rv">Du site vitrine au back-end, tout ce que je construis tient en six domaines.</p>
+  <div class="grid">
+    <div class="card svc rv"><h3>Sites vitrines</h3><p>Une présence en ligne claire, rapide et fidèle à votre image de marque.</p></div>
+    <div class="card svc rv"><h3>Boutiques en ligne</h3><p>Catalogue, collections et commande simple, y compris par WhatsApp.</p></div>
+    <div class="card svc rv"><h3>Plateformes web</h3><p>Des applications sur mesure avec PHP et MySQL, de la base de données à l'interface.</p></div>
+    <div class="card svc rv"><h3>Back-end et API</h3><p>La logique côté serveur en PHP : comptes, formulaires et échanges entre le site et les données.</p></div>
+    <div class="card svc rv"><h3>Bases de données</h3><p>Des bases MySQL bien structurées : tables, relations et requêtes pensées pour durer.</p></div>
+    <div class="card svc rv"><h3>Refonte et performance</h3><p>Un site existant repensé : plus rapide, plus lisible, adapté au mobile.</p></div>
+  </div>
+</section>
+
+<section id="process">
+  <h2 class="rv">Comment je travaille</h2>
+  <p class="sub rv">Quatre étapes simples, de la première idée à la mise en ligne.</p>
+  <div class="steps">
+    <div class="card stp rv"><h3>Échange</h3><p>On cadre votre besoin, vos objectifs et vos délais.</p></div>
+    <div class="card stp rv"><h3>Maquette</h3><p>Vous validez la direction visuelle avant le code.</p></div>
+    <div class="card stp rv"><h3>Développement</h3><p>Code propre, responsive, testé sur mobile.</p></div>
+    <div class="card stp rv"><h3>Mise en ligne</h3><p>Déploiement du site et ajustements après la livraison.</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="rv">Compétences</h2>
+  <p class="sub rv">Les technologies que j'utilise pour construire mes projets.</p>
+  <div class="sk" id="skl"></div>
+  <div class="chips rv"><span>Responsive design</span><span>UI / UX</span><span>Logique & algorithmique</span><span>Résolution de problèmes</span></div>
+</section>
+
+<section id="faq" class="faq">
+  <h2 class="rv">Questions fréquentes</h2>
+  <p class="sub rv">Les réponses aux questions qu'on me pose le plus souvent.</p>
+  <details class="rv"><summary>Combien de temps pour réaliser un site ?</summary><p>Cela dépend du projet : un site vitrine se construit plus vite qu'une plateforme complète. On fixe les délais ensemble après le premier échange.</p></details>
+  <details class="rv"><summary>Mon site s'affichera-t-il bien sur téléphone ?</summary><p>Oui, chaque site est conçu en responsive, c'est-à-dire pensé pour le mobile autant que pour l'ordinateur.</p></details>
+  <details class="rv"><summary>Puis-je demander des modifications ?</summary><p>Oui. La maquette est validée avant le développement, et des ajustements restent possibles après la livraison.</p></details>
+  <details class="rv"><summary>Comment démarrer ?</summary><p>Écrivez-moi par WhatsApp ou par e-mail avec votre idée. Je vous réponds avec une première proposition.</p></details>
+</section>
+
+<section class="cb">
+  <div class="cta2 rv"><h2>Un projet en tête ?</h2><p>Parlons-en et construisons-le ensemble.</p>
+  <div class="cta" style="justify-content:center"><a class="btn" href="https://wa.me/243851877013" target="_blank" rel="noopener">Écrire sur WhatsApp</a><a class="btn" href="mailto:brownall1208@gmail.com">Envoyer un e-mail</a></div></div>
+</section>
+
+<section id="contact" class="ct">
+  <h2 class="rv">Travaillons ensemble</h2>
+  <p class="sub rv">Un projet, une idée, une collaboration ? Écrivez-moi.</p>
+  <a class="rv" href="mailto:brownall1208@gmail.com">brownall1208@gmail.com</a>
+  <a class="rv" href="https://wa.me/243851877013" target="_blank" rel="noopener">WhatsApp · +243 85 187 7013</a>
+</section>
+</main>
+<footer>© 2026 Brown — Conçu et développé avec passion à Kinshasa</footer>
+
+<div id="adm" hidden role="dialog" aria-modal="true" aria-label="Administration des projets"><div class="box">
+<button class="x" id="ax" type="button" aria-label="Fermer">✕</button>
+<div id="lock"><h3 id="lt"></h3>
+<form id="lf" autocomplete="off"><label for="pw">Code</label><input id="pw" type="password" autocomplete="current-password" required>
+<div id="pw2w"><label for="pw2">Confirmer le code</label><input id="pw2" type="password" autocomplete="new-password"></div>
+<p class="m" id="lm"></p><button class="btn p" id="lb" type="submit"></button></form></div>
+<div id="panel" hidden><h3>Ajouter un projet</h3>
+<form id="pf" autocomplete="off"><label for="pn">Nom du projet</label><input id="pn" maxlength="60" required>
+<label for="pu">Lien du site</label><input id="pu" type="url" placeholder="https://" required>
+<label for="pd">Description courte</label><textarea id="pd" maxlength="160" required></textarea>
+<label for="pv">Vidéo d'illustration</label><input id="pv" placeholder="videos/mon-projet.mp4" required>
+<p class="h">Dépose le fichier mp4 dans le dossier videos/ puis écris son chemin. Un lien https vers un mp4 marche aussi.</p>
+<p class="m" id="pm"></p><button class="btn p" type="submit">Ajouter</button></form>
+<h3 style="margin-top:26px">Mes projets</h3><ul id="plist"></ul>
+<div class="row"><button class="btn" id="ex" type="button">Exporter</button><button class="btn" id="lk" type="button">Verrouiller</button></div></div>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
